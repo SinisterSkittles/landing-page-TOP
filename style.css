@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.header,
+.signup-one,
+.footer {
+    background-color: #1F2937;
+    flex: 1;
+}
+
+.signup-two {
+    flex: 1;
+}
+
+ul,
+li {
+    display: flex;
+    text-decoration: none;
+}
